@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calories remainig"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="1,124"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            tools:text="1,124" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rcBackgroundColor="@color/colorGrey"
+            app:rcIconBackgroundColor="@color/colorGreen"
+            app:rcIconPadding="8dp"
+            app:rcIconSize="48dp"
+            app:rcIconSrc="@drawable/ic_eat"
+            app:rcProgressColor="@color/colorGreen"
+            app:rcProgress="40"></com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar>
+
+            <TextView
+                android:text="Eaten: 832"
+                android:paddingLeft="48dp"
+                android:layout_gravity="center_vertical|left"
+                android:gravity="center_vertical|left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+        </FrameLayout>rameLayout
+
+        <FrameLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rcBackgroundColor="@color/colorGrey"
+            app:rcIconBackgroundColor="@color/colorOrange"
+            app:rcIconPadding="8dp"
+            app:rcIconSize="48dp"
+            app:rcIconSrc="@drawable/ic_burn"
+            app:rcProgress="100"
+            app:rcProgressColor="@color/colorOrange" />
+
+            <TextView
+                android:text="Estimated burn: 1956 cal"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+        </FrameLayout>rameLayout
+
+    </LinearLayout>
+</LinearLayout>

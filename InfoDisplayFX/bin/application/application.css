@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+    #pane{
+        -fx-background-image: url("../textlessbackground.png");
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900.0 506.0;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+    }
+    
+    #paneStart{
+        -fx-background-image: url("../background.png");
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900.0 506.0;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+    }
+    
+    #labelBottom{
+        -fx-background-color: rgb(255,128,192);
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+    }
+    
+    #imageHolder {
+    	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    	-fx-padding: 10;
+    	-fx-background-color: firebrick;
+    	-fx-background-radius: 5;
+    }
+    
+    #lbDiet{
+        -fx-background-color: rgb(33, 150, 243);
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+    }
+    
+    #lbEnergy{
+        -fx-background-color: rgb(213, 0, 0);
+        -fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0); 
+    }
+    
+	#lblOrigin{
+        -fx-background-color: rgb(139, 195, 74);
+    }
+    
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="assets"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/antlr-runtime-3.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/cssbox-4.11.jar"/>
+	<classpathentry kind="lib" path="libs/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="libs/jstyleparser-1.22.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libs/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.18.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-log4j12-1.7.19.jar"/>
+	<classpathentry kind="lib" path="libs/sqlite-jdbc-3.14.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/svgSalamander.jar"/>
+	<classpathentry kind="lib" path="libs/unbescape-1.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/xercesimpl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

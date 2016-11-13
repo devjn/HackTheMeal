@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" stylesheets="@application/application.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label fx:id="dishName" layoutX="10.0" layoutY="26.0" text="Dish name" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="30.0">
+			<font>
+				<Font name="Franklin Gothic Heavy" size="80.0" />
+			</font>
+		</Label>
+		<StackPane id="imageHolder" layoutX="14.0" layoutY="243.0" prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+			<children>
+				<ImageView fx:id="imageDish" fitHeight="250.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../assets/pages/lohilaatikko.jpg" />
+					</image>
+				</ImageView>
+			</children>
+		</StackPane>
+		<Label fx:id="lbDiet" layoutX="471.0" layoutY="172.0" text="Diet" textFill="WHITE" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="500.0">
+			<font>
+				<Font name="Franklin Gothic Heavy" size="36.0" />
+			</font>
+		</Label>
+		<Label fx:id="lbEnergy" layoutX="500.0" text="Energy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="500.0">
+			<font>
+				<Font name="Franklin Gothic Heavy" size="36.0" />
+			</font>
+		</Label>
+		<Label fx:id="lblOrigin" layoutX="500.0" text="Origin" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="140.0">
+			<font>
+				<Font name="Franklin Gothic Demi Italic" size="36.0" />
+			</font>
+		</Label>
+	</children>
+</fx:root>
