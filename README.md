@@ -1,1 +1,1 @@
-# hackthemeal R
+# Repository for SmartMeal Hackaton 
